@@ -10,16 +10,14 @@ public class Ball implements ballPrototypeInterface{
     private double yVel;
     private Paint colour;
 
-    private String a;
 
     private Ball newBall;
 
     private ballStrategy blue;
     private ballStrategy red;
 
-    private List<Observer> allObservers;
     private ballStrategy black;
-    private int timer;
+
 
     Ball(double startX, double startY, double startRadius, Paint colour) {
         this.xPos = startX;
